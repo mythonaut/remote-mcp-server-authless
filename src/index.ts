@@ -22,7 +22,8 @@
  *
  *********************************************************************/
 
-import { McpServer } from "@cloudflare/agents-sdk/server/mcp";
+import { McpAgent } from "agents/mcp";
+import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { z } from "zod";
 
 /* ---------- helpers ------------------------------------------------ */
